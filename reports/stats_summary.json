@@ -1,0 +1,18 @@
+{
+  "orders_with_review": 95824,
+  "late_orders": 6381,
+  "on_time_orders": 89443,
+  "mean_review_late": 2.27,
+  "mean_review_on_time": 4.29,
+  "mean_diff_ci95": [
+    -2.056,
+    -1.981
+  ],
+  "mann_whitney_p": 0.0,
+  "low_review_share_late": 0.6242,
+  "low_review_share_on_time": 0.0927,
+  "chi2": 15064.1,
+  "chi2_p": 0.0,
+  "spearman_distance_vs_delivery_days": 0.541,
+  "spearman_p": 0.0
+}

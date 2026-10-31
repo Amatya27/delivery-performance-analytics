@@ -1,0 +1,23 @@
+feature,label,importance,std
+customer_state,Customer state,0.053,0.0024
+promise_slack_days,Promise slack vs recent delivery times,0.0481,0.0045
+state_recent_avg_days,"Avg delivery days into state, last 14 days",0.0319,0.0035
+promised_days,Days promised to customer,0.0278,0.0009
+seller_prior_avg_days,Seller's past avg delivery days,0.0135,0.0036
+max_distance_km,Seller to customer distance,0.0127,0.002
+state_recent_late_rate,"Late rate into state, last 14 days",0.0113,0.002
+seller_state,Seller state,0.0098,0.0007
+items_freight,Freight paid,0.0049,0.0009
+n_sellers,Number of sellers,0.0046,0.0013
+n_items,Number of items,0.0037,0.0005
+seller_prior_orders,Seller's past delivered orders,0.0019,0.0013
+total_weight_g,Package weight,0.0017,0.0014
+purchase_weekday,Day of week,0.0014,0.0009
+main_category_en,Product category,0.0013,0.0038
+items_price,Order value,0.001,0.0004
+same_state,Same-state shipment,0.0001,0.0
+payment_type_main,Payment type,-0.0004,0.0008
+seller_prior_late_rate,Seller's past late rate,-0.0006,0.0007
+freight_ratio,Freight / order value,-0.0007,0.0006
+max_installments,Payment installments,-0.0009,0.0003
+purchase_hour,Hour of purchase,-0.0017,0.0008

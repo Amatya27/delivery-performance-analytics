@@ -1,0 +1,11 @@
+# raw data is downloaded by src/get_data.py, the database is rebuilt by src/etl.py
+data/raw/
+data/*.db
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,65 @@
+{
+  "train_period": [
+    "2017-01-01",
+    "2018-01-01"
+  ],
+  "test_period": [
+    "2018-01-01",
+    "2018-09-01"
+  ],
+  "features": [
+    "promised_days",
+    "max_distance_km",
+    "items_freight",
+    "items_price",
+    "total_weight_g",
+    "n_items",
+    "n_sellers",
+    "freight_ratio",
+    "same_state",
+    "purchase_hour",
+    "purchase_weekday",
+    "max_installments",
+    "seller_prior_orders",
+    "seller_prior_late_rate",
+    "seller_prior_avg_days",
+    "state_recent_late_rate",
+    "state_recent_avg_days",
+    "promise_slack_days",
+    "customer_state",
+    "seller_state",
+    "main_category_en",
+    "payment_type_main"
+  ],
+  "models": {
+    "logistic_regression": {
+      "orders": 52777,
+      "late_rate": 0.0773,
+      "roc_auc": 0.7063,
+      "pr_auc": 0.166,
+      "brier": 0.2635,
+      "precision_top10": 0.2088,
+      "recall_top10": 0.2702
+    },
+    "gradient_boosting": {
+      "orders": 52777,
+      "late_rate": 0.0773,
+      "roc_auc": 0.7061,
+      "pr_auc": 0.171,
+      "brier": 0.0687,
+      "precision_top10": 0.215,
+      "recall_top10": 0.2783
+    },
+    "rule_short_promise": {
+      "orders": 52777,
+      "late_rate": 0.0773,
+      "roc_auc": 0.5288,
+      "pr_auc": 0.0878,
+      "brier": 0.0723,
+      "precision_top10": 0.0877,
+      "recall_top10": 0.1135
+    }
+  },
+  "chosen_model": "gradient_boosting",
+  "high_risk_cutoff": 0.1223
+}
