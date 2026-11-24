@@ -1,8 +1,25 @@
-# Delivery Performance Analytics
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="media/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="media/banner-light.svg">
+    <img src="media/banner-light.svg" width="100%" alt="Delivery Performance Analytics">
+  </picture>
+</p>
+<p align="center">
+  <a href="https://github.com/Amatya27/delivery-performance-analytics/actions/workflows/tests.yml"><img src="https://github.com/Amatya27/delivery-performance-analytics/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <a href="https://amatya27.github.io/delivery-performance-analytics/"><img src="https://img.shields.io/badge/Live%20report-0d9488?style=flat-square" alt="Live report"></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
+</p>
 
 I wanted a project where I take real, messy operations data all the way to something a business team could actually use: a clean database, a dashboard that tracks delivery KPIs, and a model that flags orders likely to arrive late before they even ship.
 
 The data is the Olist public e-commerce dataset, about 100k real (anonymized) orders from a Brazilian marketplace between 2016 and 2018. Each order has the purchase time, when the seller handed it to the carrier, when the customer got it, and the delivery date the customer was promised. That last part is what makes it useful for delivery analysis.
+
+**Interactive report (no install needed):** https://amatya27.github.io/delivery-performance-analytics/
 
 **Tableau Public dashboard:** _link coming once it's published_
 
